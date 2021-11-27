@@ -1,0 +1,10 @@
+const projectContainer = (name)=> {
+
+    const toDos = []
+    const getName = () => name
+
+
+    return {getName}
+}
+
+export default projectFactory;
